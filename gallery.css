@@ -1,0 +1,287 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.navbar{
+    height:250px;
+    width: 1473px;
+    background-color: rgb(21, 21, 69);
+}
+
+
+.nav-div{
+    height: 100px;
+    /* background-color:rgb(101, 164, 164); */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.bar{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.nav-logo{
+    height: 100px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo{
+    height:100% ;
+    width: 100%;
+    background-image: url("CricVerse_transparent.png");
+    background-size: cover;
+}
+
+.home{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icc_men{
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icc_women{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.match{
+    height: 40px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gallery{
+    height: 40px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.events{
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover{
+    border:1px solid white;
+    color: #000;
+    font-weight: 500;
+
+}
+
+.border:active{
+    color:blue;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* CONTENT */
+
+.main-content{
+    height: autopx;
+    /* background-color:rgb(22, 22, 72); */
+    /* margin-top: 10px; */
+}
+
+.big-div{
+    margin-top: 50px;
+    height: auto;
+    /* background-color: palegreen; */
+}
+
+.label{
+    height: 50px;
+    background-color:gold;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1.5rem;
+
+
+}
+
+.image-box{
+    margin-top: 20px;
+    height: auto;
+    background-color:burlywood;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.box{
+    height: 350px;
+    width: 700px;
+    background-color: lightseagreen;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-size: cover;
+    transition: all 1s ease-in-out;
+}
+
+.box:hover{
+    border:2px dotted rgb(16, 16, 48);
+    width: 600px;
+    transform:scale(1) ;
+}
+
+/* footer */
+
+.footer{
+    height: 750px;
+    margin-top: 50px;
+    background-color:rgb(0, 35, 122);
+}
+
+
+.part1{
+    height: 100px;
+    background-color:rgb(0, 35, 122);
+}
+.part2{
+    /* margin-top: 1000px; */
+    height: 390px;
+    /* background-color:palevioletred; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.foot-div{
+    height: 84px;
+    width: 565px;
+    /* background-color:palegreen; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+.partner{
+    height: 48px;
+    width: 144px;
+    background-size: cover;
+}
+
+p{
+    margin-top: 3px;
+    color:white;
+    font-weight: 700;
+}
+.horizontal-line{
+    height: 0.8px;
+    width: 560px;
+    background-color: rgb(240, 234, 234);
+    margin-top: 30px;
+}
+
+.part3{
+    height: 50px;
+    margin-top: 50px;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    /* background-color: aquamarine; */
+}
+
+.part4{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.msg{
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.horizontal-line1{
+    height: 0.8px;
+    width: 1430px;
+    background-color: rgba(255, 255, 255, 0.838);
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.part5{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color:#dbe0e4;
+}

@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    height:250px;
+    width: 1473px;
+    background-color:#00175f;
+}
+
+.nav-div{
+    height: 100px;
+    /* background-color:rgb(101, 164, 164); */
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    color: #ffffff;
+}
+
+.wave{
+    height: 100px;
+    width: 70px;
+    background-image: url("wave-removebg-preview.png");
+    background-size: cover;
+    /* background-color: aqua; */
+}
+
+.bar{
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.nav-logo{
+    height: 100px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.logo{
+    height:100% ;
+    width: 100%;
+    background-image: url("CricVerse_transparent.png");
+    background-size: cover;
+}
+
+.home{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icc_men{
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icc_women{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.match{
+    height: 40px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gallery{
+    height: 40px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.events{
+    height: 40px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover{
+    border:1px solid white;
+    color: #000;
+    font-weight: 500;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.whole-content{
+    height: auto;
+    background-color:rgb(255, 255, 255);
+}
+
+.heading{
+    height: 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-head{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.logo-t20{
+    height: 88%;
+    width: 150px;
+    background-image: url("logo_t20.png");
+    background-size: cover;
+}
+.head-msg{
+    color:white;
+    padding-top: 30px;
+
+
+}
+
+/* CONTENT */
+
+.main-content{
+    height: auto;
+    margin-top: 50px;
+    
+}
+
+.big-div{
+    height: auto;
+    /* margin: 50px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: url("wave-removebg-preview.png");
+    background-size: contain;
+}
+
+.box{
+    height: 500px;
+    width: 320px;
+    margin-top: 50px;
+    
+    background-color:rgb(1, 25, 87);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country-logo{
+    height: 75px;
+    width: 75px;
+    background-size: cover;
+}
+
+
+.team-name{
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: 700;
+    
+}
+
+
+.odi{
+    font-size: o.9rem;
+    color:#8996a0;
+    font-weight: 600;
+}
+
+.number{
+    color: white;
+}
+
+.cwc{
+    font-size:0.75rem;
+    color:#8996a0;
+    font-weight: 400;
+}
+
+.position{
+    color:white;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+
+.button-profile
+{
+    width: 150px;
+    height: 42px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-p{
+    font-size: 0.8rem;
+    color:rgb(0, 35, 122);
+    font-weight: 700;
+}
+
+.t-p a{
+    color:rgb(0, 35, 122);
+    
+}
+
+
+/* footer */
+
+.footer{
+    height: 750px;
+    margin-top: 50px;
+    background-color:rgb(0, 35, 122);
+}
+
+
+.part1{
+    height: 100px;
+    background-color:rgb(0, 35, 122);
+}
+.part2{
+    /* margin-top: 1000px; */
+    height: 390px;
+    /* background-color:palevioletred; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.foot-div{
+    height: 84px;
+    width: 565px;
+    /* background-color:palegreen; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+.partner{
+    height: 48px;
+    width: 144px;
+    background-size: cover;
+}
+
+p{
+    margin-top: 3px;
+    color:white;
+    font-weight: 700;
+}
+.horizontal-line{
+    height: 0.8px;
+    width: 560px;
+    background-color: rgb(240, 234, 234);
+    margin-top: 30px;
+}
+
+.part3{
+    height: 50px;
+    margin-top: 50px;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    /* background-color: aquamarine; */
+}
+
+.part4{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+
+.msg{
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.horizontal-line1{
+    height: 0.8px;
+    width: 1430px;
+    background-color: rgba(255, 255, 255, 0.838);
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.part5{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color:#dbe0e4;
+}
