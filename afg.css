@@ -24,7 +24,7 @@
 .wave{
     height: 100px;
     width: 70px;
-    background-image: url("wave-removebg-preview.png");
+    background-image: url("img/wave-removebg-preview.png");
     background-size: cover;
     /* background-color: aqua; */
 }
@@ -51,7 +51,7 @@
 .logo{
     height:100% ;
     width: 100%;
-    background-image: url("CricVerse_transparent.png");
+    background-image: url("img/CricVerse_transparent.png");
     background-size: cover;
 }
 
